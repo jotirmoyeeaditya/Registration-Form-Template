@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="main">
+
+    <!-- use max-width by keeping the whole form in a div 
+         use button instead of submit-->
+
+    <div class="logo">
+        <img src="https://i.postimg.cc/QtdhRPtF/registration-icon-png-6.png" alt="logo">
+
+
+    </div>
+   
+    <div class="all-content">
+
+        <div class="registration-form">
+            <h1>Registration Form</h1>
+        </div>
+
+        <h3>Client Account Information</h3>
+
+        <div class="flex-container"> <!--one -->
+
+            <div class="flex-container-left">
+               
+                
+                    <label for="contact-person">Contact Person</label><br>
+                    <input type="text" id="contact-person"  ><br>
+                    
+                
+            </div>
+
+            <div class="flex-container-right">
+                
+                
+
+                    <label for="business-name">Business Name</label><br>
+                    <input type="text" id="business-name"  ><br>
+                    
+                
+
+            </div>
+
+        
+        </div>
+
+        <div class="flex-container">
+
+            <div class="flex-container-left">
+                
+                
+
+                    <label for="street-address">Street Address</label><br>
+                    <input type="text" id="street-address"  ><br>
+                    
+                
+
+            </div>
+
+            <div class="flex-container-right">
+                
+                 
+                
+
+                    <label for="street-address-two">Street Address line 2</label><br>
+                    <input type="text" id="street-address-two"  ><br>
+                    
+                
+
+            </div>
+
+        
+        </div>
+
+        <div class="flex-container"> 
+
+            <div class="flex-container-left">
+                
+                 
+                
+
+                    <label for="city">City</label><br>
+                    <input type="text" id="city"  ><br>
+                    
+                
+
+            </div>
+
+            <div class="flex-container-right-two">
+                
+                 <div class="state">
+                    
+
+                       <label for="state">State</label><br>
+                       <input type="text" id="state"  ><br>
+                    
+                    
+                </div>
+
+                <div class="zip-code">
+                    
+
+                       <label for="zip-code">Zip Code</label><br>
+                       <input type="number" id="zip-code"  ><br>
+                    
+                    
+                </div>
+
+
+            </div>
+
+        
+        </div>
+
+        <div class="flex-container">  
+
+            <div class="flex-container-left">
+                
+                 
+                
+
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email"  ><br>
+                    
+                
+
+            </div>
+
+            <div class="flex-container-right">
+                
+                 
+                
+
+                    <label for="linkedin-url">LinkedIn URL</label><br>
+                    <input type="url" id="linkedin-url" name="linkedin-url"  ><br>
+                    
+                
+
+            </div>
+
+        
+        </div>
+
+        <div class="flex-container"> 
+
+            <div class="flex-container-left">
+                
+                 
+                
+
+                    <label for="phone-number">Phone Number</label><br>
+                    <input type="number" id="phone-number" name="phone-number" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" ><br>
+                    
+                
+
+            </div> 
+
+             <div class="flex-container-right">
+                
+                 
+                
+
+                    <label for="website-url">Website URL</label><br>
+                    <input type="url" id="website-url" name="website-url"  ><br>
+                    
+                
+
+            </div> 
+
+        
+        </div>
+
+    
+
+        <div class="flex-box">
+
+
+          <div class="quantity-of-time">
+
+                 <h3>Quantity of Item:</h3>
+
+              <form action="">
+                   <div class="five">
+                      <input type="checkbox" id="five-hundred" name="five-hundred" value="five-hundred">
+                      <label for="five-hundred">500</label>
+                   </div>
+                
+
+                   <div class="five">
+                      <input type="checkbox" id="thousand" name="thousand" value="thousand">
+                      <label for="thousand">1000</label>
+                   </div>
+
+                   <div class="five">
+                      <input type="checkbox" id="fifteen-hundred" name="fifteen-hundred" value="fifteen-hundred">
+                      <label for="fifteen-hundred">1500</label>
+                   </div>
+               
+              </form>
+
+          </div>
+
+
+          <div class="preferred-size">
+            
+                  <h3>Preferred Size:</h3>
+                <form action="">
+                    <div class="size">
+                        <input type="checkbox" id="small" name="small" value="small">
+                        <label for="small">Small</label>
+                    
+                    </div>
+                
+
+                    <div class="size">
+                        <input type="checkbox" id="medium" name="medium" value="medium">
+                        <label for="medium">Medium</label>
+                    </div>
+
+                    <div class="size">
+                        <input type="checkbox" id="large" name="large" value="large">
+                        <label for="large">Large</label>
+                    </div>
+               
+                </form>
+
+          </div>
+
+          <div class="subscription">
+
+                <h3>Subscription wanted?</h3>
+
+              <form>
+                    <div class="subscription">
+                       <input type="radio" id="yes" name="yes" value="yes">
+                       <label for="yes">YES</label><br>
+                       <input type="radio" id="no" name="no" value="no">
+                       <label for="no">NO</label><br>
+                    </div>
+                
+               </form>
+  
+          </div> 
+
+        </div>
+
+
+
+        <div>
+
+            <h3>Suggestions or feedback that you want to give about the products ?</h3>
+
+            <form class="feedback">
+                 <input type="text" >
+  
+            </form>
+
+
+        </div>
+
+        <div class="submit">
+
+            <input type="submit" value="SUBMIT">
+            
+        </div>
+
+
+      <br>
+    
+
+    </div>
+
+    <br>
+
+    <footer class="footer">
+        <p>COPYRIGHT DEMO SHIPPING COMPANY</p>
+    </footer>
+
+
+
+</body>
+</html>
