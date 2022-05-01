@@ -3,7 +3,7 @@
 
 This is a project made by html to create an sample that collects user data and display it in storage when applied. 
 
-<img src="file:///D:/website%20for%20jotirmoyee/Registration-Form-Template/form.png" alt="project_img">
+<img src="form.png" alt="project_img">
 
 </h1>Additional description about the project and its features.</h1>
 
